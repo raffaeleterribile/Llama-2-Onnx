@@ -1,1 +1,5 @@
 **/ONNX/** filter=lfs diff=lfs merge=lfs -text
+*.data filter=lfs diff=lfs merge=lfs -text
+*.onnx filter=lfs diff=lfs merge=lfs -text
+*.weight filter=lfs diff=lfs merge=lfs -text
+onnx_* filter=lfs diff=lfs merge=lfs -text
