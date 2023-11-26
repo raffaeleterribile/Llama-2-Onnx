@@ -243,6 +243,7 @@ with gr.Blocks(css=custom_css, theme=small_and_beautiful_theme) as demo:
         outputs=[chatbot, history, status_display],
         show_progress=True,
     )
+    
     retry_args = dict(
         fn=interface_retry,
         inputs=[
