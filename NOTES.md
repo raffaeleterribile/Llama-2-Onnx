@@ -16,6 +16,11 @@ I've succeded loading model on CPU with this configuration:
 conda install pytorch -c pytorch
 pip install torch onnxruntime numpy sentencepiece
 
+I have to install
+
+ipykernel
+onnx
+
 # Performance test of the minimum example with the suggested parameters
 
 .\test_duration.ps1
