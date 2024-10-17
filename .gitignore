@@ -347,3 +347,7 @@ __pycache__/
 
 # Generated QIR .ll files
 **/[Qq]ir/*.ll
+
+*.pt
+*.pth
+*.onnx
