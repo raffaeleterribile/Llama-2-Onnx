@@ -97,6 +97,33 @@ available_models = {
             top_directory, "13B_FT_float32", "embeddings.pth"
         ),
     },
+    "LLaMA 7B Chat Int4": {
+        "onnx_file": os.path.join(
+            top_directory, "Quantized_Llama", "llama-2-7b-chat-w4-g128.pt"
+        ),
+        "tokenizer_path": tokenizer_path,
+        "embedding_file": os.path.join(
+            top_directory, "Quantized_Llama", "embeddings.pth"
+        ),
+    },
+    "LLaMA 13B Chat Int4": {
+        "onnx_file": os.path.join(
+            top_directory, "Quantized_Llama", "llama-2-13b-chat-w4-g128.pt"
+        ),
+        "tokenizer_path": tokenizer_path,
+        "embedding_file": os.path.join(
+            top_directory, "Quantized_Llama", "embeddings.pth"
+        ),
+    },
+    "LLaMA 70B Chat Int4": {
+        "onnx_file": os.path.join(
+            top_directory, "Quantized_Llama", "llama-2-70b-chat-w4-g128.pt"
+        ),
+        "tokenizer_path": tokenizer_path,
+        "embedding_file": os.path.join(
+            top_directory, "Quantized_Llama", "embeddings.pth"
+        ),
+    },
 }
 
 

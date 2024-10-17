@@ -295,7 +295,7 @@ short answers are usually best"
             return
         try:
             self.llm_session
-        except (ValueError, RuntimeError, TypeError):
+        except (AttributeError, ValueError, RuntimeError, TypeError):
             yield [[text, "No Model Found"]], [], "No Model Found"
             return
 
